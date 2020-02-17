@@ -4,8 +4,16 @@
   box-sizing: border-box;
 }
 
-.structure{
+h1{
+  text-align: center;
+}
 
+.structure{
+  background-color: green;
+  width: 100%;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .title{
@@ -18,10 +26,6 @@
   width: 100%;
 }
 
-h1{
-  text-align: center;
-}
-
 .navbar{
   /* debug */
   background-color: blue;
@@ -30,4 +34,142 @@ h1{
   border: 2px solid #000;
   /* end debug */
   width: 100%;
+}
+
+.left{
+  /* debug */
+  border: 2px solid #000;
+  background-color: pink;
+  height: 800px;
+  /* end debug */
+  width: 20%;
+ color: #000;
+ float: left;
+}
+
+.right{
+  /* debug */
+  border: 2px solid #000;
+  background-color: pink;
+  height: 600px;
+  /* end debug */
+  width: 30%;
+  color: #000;
+  float: right;
+}
+
+.pages{
+  /* debug */
+  border: 2px solid #000;
+  background-color: purple;
+  height: 400px;
+  /* end debug */
+  width: 90%;
+  margin: 5% 0;
+}
+
+.archivies{
+    /* debug */
+    border: 2px solid #000;
+    background-color: purple;
+    height: 100px;
+    /* end debug */
+    width: 90%;
+    margin: 5% 0;
+  }
+
+.meta{
+  /* debug */
+  border: 2px solid #000;
+  background-color: purple;
+  height: 200px;
+  /* end debug */
+  width: 90%;
+  margin: 5% 0;
+}
+
+.midarea{
+  /* debug */
+  border: 2px solid #000;
+  background-color: purple;
+  height: 1200px;
+  /* end debug */
+  width: 50%;
+  float: left;
+}
+
+.search{
+  /* debug */
+  border: 2px solid #000;
+  background-color: purple;
+  height: 150px;
+  /* end debug */
+  width: 90%;
+  margin: 5% 0;
+}
+
+.tag{
+  /* debug */
+  border: 2px solid #000;
+  background-color: purple;
+  height: 350px;
+  /* end debug */
+  width: 90%;
+  margin: 5% 0;
+}
+
+footer{
+  /* debug */
+  background-color: grey;
+  height: 500px;
+  text-align: center;
+  border: 2px solid #000;
+  /* end debug */
+  width: 100%;
+  padding-top: 5%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.endpage{
+  /* debug */
+  border: 2px solid #000;
+  background-color: pink;
+  height: 300px;
+  /* end debug */
+  width: 100%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer1{
+  /* debug */
+  border: 2px solid #000;
+  background-color: purple;
+  height: 200px;
+  /* end debug */
+  width: 15%;
+  margin: 0 3%;
+  float: left;
+}
+
+.footer2{
+  border: 2px solid #000;
+  background-color: purple;
+  height: 200px;
+  /* end debug */
+  width: 35%;
+  float: right;
+}
+
+.copyright{
+  /* debug */
+  border: 2px solid #000;
+  background-color: purple;
+  height: 50px;
+  /* end debug */
+  width: 90%;
+  margin: 5% 5%;
 }
